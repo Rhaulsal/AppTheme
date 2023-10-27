@@ -12,34 +12,37 @@
         android:layout_height="150dp"
         android:layout_margin="20dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/remando"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Insira seu e-mail"
-        android:padding="20sp"
-        android:drawableEnd="@drawable/email"
-        android:layout_margin="10sp"
-        android:inputType="textEmailAddress"/>
+        android:src="@drawable/remando" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Insira sua senha"
-        android:padding="20sp"
-        android:drawableEnd="@drawable/lock"
         android:layout_margin="10sp"
-        android:inputType="textPassword"/>
+        android:drawableEnd="@drawable/email"
+        android:hint="Insira seu e-mail"
+        android:inputType="textEmailAddress"
+        android:padding="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:drawableEnd="@drawable/lock"
+        android:hint="Insira sua senha"
+        android:inputType="textPassword"
+        android:padding="20sp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10sp"
-        android:hint="Esqueceu sua senha?"/>
+        android:hint="Esqueceu sua senha?" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Acessar"
-        android:layout_margin="20dp"/>
+        android:layout_margin="20dp"
+        android:text="Acessar" />
 
 
 </LinearLayout>
